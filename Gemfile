@@ -6,6 +6,8 @@ ruby "3.1.4"
 gem 'activeadmin'
 gem 'sassc-rails'
 gem 'after_commit_everywhere', '~> 1.0'
+gem 'ransack'
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.4", ">= 7.0.4.3"
 
