@@ -4,6 +4,9 @@ This is an exercise for our junior web developer position at Family First.
 
 ## Notes
 - This Rails application already is setup to work with SQLite, Tailwind, Alpine, and ActiveAdmin. You will not need to install any new libraries or gems to complete this exercise.
+- Once you have forked it into your personal Github account, you can clone it locally and run `bundle install` to install the gems. Then run `bin/dev` to start the server.
+- When you create your Contact admin resource, you will get a ransackable error but the error tells you exactly what to do.
+- Read carefully the comments ActiveAdmin generates in it's Contact admin page.
 
 ## Requirements
 - Fork this into your personal Github account. After completing the exercise, submit a Pull Request.
@@ -17,10 +20,11 @@ This is an exercise for our junior web developer position at Family First.
 - Create a model with CRUD controller and views for a Contact model with the following fields (you can choose to use scaffolding):
   - Name
   - Email
-  - Phone
-- Style the scaffolding using Tailwind CSS
+  - Birthday
+- Though the default scaffold looks decent, find some ways to make it look better using Tailwind CSS
+- Link to the new contacts section from the home page (anyway you think looks good)
 - Create an ActiveAdmin resource for the Contact model and ensure it works to create, edit, and delete contacts
-- Find a way to integrate at least one usage of Alpine into your scaffolding somewhere. Examples: search field for the index, filters drop down, collapsible menus
+- Find a way to integrate at least one usage of Alpine into your contact pages somewhere. Examples: search field for the index, filters drop down, collapsible menus
 
 ## Resources
 
