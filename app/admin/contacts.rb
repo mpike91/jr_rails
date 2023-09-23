@@ -5,7 +5,7 @@ ActiveAdmin.register Contact do
   #
   # Uncomment all parameters which should be permitted for assignment
   #
-  # permit_params :name, :email, :birthday
+  permit_params :name, :email, :birthday
   #
   # or
   #
