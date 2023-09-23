@@ -13,7 +13,11 @@
 
   <body>
     <main class="container mx-auto mt-28 px-5 flex">
-      <%= yield %>
+      <div x-data="{applicant_name: 'Matt Pike'}" class="mx-auto" id="main" >
+        <%= render "shared/navbar" %>
+        <%= yield %>
+        <%= render "shared/footer" %>
+      </div>
     </main>
   </body>
 </html>

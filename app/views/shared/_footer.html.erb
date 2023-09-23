@@ -1,0 +1,21 @@
+<div class="bg-white py-24 sm:py-32">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="mx-auto max-w-2xl lg:max-w-none" id="frameworks">
+      <h2 class="text-lg font-semibold leading-8 text-gray-900">Built using the following frameworks:</h2>
+      <div class="mx-auto mt-10 grid grid-cols-4 items-start gap-x-8 gap-y-10 sm:gap-x-10 lg:mx-0">
+        <%= link_to "https://rubyonrails.org/", class: "col-span-2 lg:col-span-1", target: "_blank" do %>
+          <%= image_tag "ror.png", alt: "Ruby On Rails", class: "max-h-12 w-full object-contain object-center" %>
+        <% end %>
+        <%= link_to "https://activeadmin.info/", class: "col-span-2 lg:col-span-1", target: "_blank" do %>
+          <%= image_tag "activeadmin.png", alt: "Active Admin", class: "col-span-2 max-h-12 w-full object-contain object-center lg:col-span-1" %>
+        <% end %>
+        <%= link_to "https://tailwindcss.com/", class: "col-span-2 lg:col-span-1", target: "_blank" do %>
+          <%= image_tag "tailwind.png", alt: "Tailwind", class: "col-span-2 max-h-12 w-full object-contain object-center lg:col-span-1" %>
+        <% end %>
+        <%= link_to "https://alpinejs.dev/", class: "col-span-2 lg:col-span-1", target: "_blank" do %>
+          <%= image_tag "alpine.svg", alt: "Alpine", class: "col-span-2 max-h-12 w-full object-contain object-center lg:col-span-1" %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
