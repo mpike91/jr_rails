@@ -1,9 +1,11 @@
 <div class="mx-auto md:w-2/3 w-full flex">
   <div class="mx-auto">
     <% if notice.present? %>
-      <p class="py-2 px-3 bg-green-50 mb-5 text-green-500 font-medium rounded-lg inline-block" id="notice"><%= notice %></p>
+      <div class="flex justify-center">
+        <p class="py-2 px-3 bg-green-50 mb-5 text-green-500 font-medium rounded-lg inline-block" id="notice"><%= notice %></p>
+      </div>
     <% end %>
-
+    
     <%= render @contact %>
 
     <%= link_to 'Edit this contact', edit_contact_path(@contact), class: "mt-2 rounded-lg py-3 px-5 bg-gray-900 text-white inline-block font-medium" %>
