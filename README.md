@@ -33,8 +33,6 @@ Please see a few pictures of the app below, and beneath that will be the origina
 </p>
 
 <hr>
-<hr>
-<hr>
 
 # README
 
