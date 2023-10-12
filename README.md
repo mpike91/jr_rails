@@ -7,25 +7,32 @@ Please see a few pictures of the app below, and beneath that will be the origina
 <p align="center">
   <img src="readme1.png">
 </p>
+<hr>
 <p align="center">
   <img src="readme2.png">
 </p>
+<hr>
 <p align="center">
   <img src="readme3.png">
 </p>
+<hr>
 <p align="center">
   <img src="readme4.png">
 </p>
+<hr>
 <p align="center">
   <img src="readme5.png">
 </p>
+<hr>
 <p align="center">
   <img src="readme6.png">
 </p>
+<hr>
 <p align="center">
   <img src="readme7.png">
 </p>
 
+<hr>
 <hr>
 <hr>
 
